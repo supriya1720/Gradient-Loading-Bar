@@ -39,6 +39,7 @@
 }
 .first-container {
 	background: linear-gradient(-45deg,#FDF0C4,#FCC0CC,#78d2cd,#FEC987, white,white);
+    background-position: 0% 0%;
     background-size: 400% 400%;
 	animation: gradient 12s ease;
 }
@@ -50,12 +51,12 @@
         background-position: 0% 0%;
     }
     30%{
-        background-position: 50%,50%;
+        background-position: 50% 50%;
     }
     65%{
 		background-position: 100% 100%;
 	}
     100%{
-        background-position:0% , 0%;
+        background-position:0% 0%;
     }
 }
